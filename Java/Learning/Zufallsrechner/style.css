@@ -1,0 +1,33 @@
+html {
+    background-color: rgb(250, 255, 195);
+}
+
+.input {
+    padding: 8px;
+    width: 90%;
+    margin-left: 10px;
+    border-width: 2px;
+    background-color: rgb(230, 230, 230);
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+#generate {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    background-color: lightskyblue;
+    font-weight: bold;
+    border-width: 1px;
+}
+
+#output {
+    padding: 8px;
+    width: 25%;
+    margin-top: 10px;
+    border-width: 5px;
+    background-color: rgb(230, 230, 230);
+}
