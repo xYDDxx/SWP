@@ -1,3 +1,5 @@
+package at.ydd.learning;
+
 import java.util.Random;
 
 public class if2 {
