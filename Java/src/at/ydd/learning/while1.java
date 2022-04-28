@@ -4,7 +4,7 @@ import java.util.Random;
 public class while1 {
     public static void main(String[] args) {
 
-        boolean isfinished = false;,
+        boolean isfinished = false;
         int sum = 0;
         Random random = new Random();
         int randomNumber = 0;
