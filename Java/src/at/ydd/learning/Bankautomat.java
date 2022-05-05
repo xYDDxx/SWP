@@ -37,17 +37,13 @@ public class Bankautomat {
                 System.out.println("Sie haben " + withdrawl + " Euro abgehoben!");
                 balance -= withdrawl;
             }else {System.out.println("Ihr Kontostand ist zu gering!");}
-            }
-
-
-            if (selection == 3){
+            }else if (selection == 3){
                 System.out.println("Ihr Kontostand beträgt " + balance + " Euro!");
-            }
-
-
-            if (selection == 4){
+            }else if (selection == 4){
                 isFinished = true;
                 System.out.println("Machine is stopping!");
+            }else{
+                System.out.println("Wrong Input!" + "\n" + "Please Choose a Number from 1-4!");
             }
         }
     }
