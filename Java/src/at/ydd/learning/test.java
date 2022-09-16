@@ -11,7 +11,6 @@ public class test {
         int randomNumber2 = random.nextInt(randomNumber1);
         System.out.println("Random Number 2: " + randomNumber2);
 
-
         for (int i=randomNumber1; i>=randomNumber2; i--) {
             System.out.println(i);
         }
