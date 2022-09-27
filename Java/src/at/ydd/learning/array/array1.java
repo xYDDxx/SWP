@@ -1,4 +1,4 @@
-package at.ydd.learning;
+package at.ydd.learning.array;
 
 public class array1 {
     public static void main(String[] args) {

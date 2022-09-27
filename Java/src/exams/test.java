@@ -1,4 +1,4 @@
-package at.ydd.learning;
+package exams;
 import java.util.Random;
 
 public class test {
