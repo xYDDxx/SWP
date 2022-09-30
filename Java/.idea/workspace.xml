@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7cf50b1-e7be-4731-869b-b2a95b50d902" name="Changes" comment="CrossSum1">
-      <change afterPath="$PROJECT_DIR$/src/at/ydd/learning/CrossSum/CrossSum2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exams/codegame1.java" afterDir="false" />
+    <list default="true" id="a7cf50b1-e7be-4731-869b-b2a95b50d902" name="Changes" comment="CrossSum2">
+      <change afterPath="$PROJECT_DIR$/src/at/ydd/learning/CrossSum/CrossSum3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/array1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/array/array1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/array2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/array/array2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/array3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/array/array3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/if1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/ifs/if1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/if2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/ifs/if2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/loop1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/loops/loop1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/loop2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/loops/loop2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exams/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exams/test2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +47,7 @@
       <recent name="C:\HTL Dornbirn\2.Klasse\SWP\Programming\Java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CrossSum2">
+  <component name="RunManager" selected="Application.CrossSum3">
     <configuration name="CrossSum1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="at.ydd.learning.CrossSum.CrossSum1" />
       <module name="Programming" />
@@ -84,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="array2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="at.ydd.learning.array.array2" />
+    <configuration name="CrossSum3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="at.ydd.learning.CrossSum.CrossSum3" />
       <module name="Programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="at.ydd.learning.array.*" />
+          <option name="PATTERN" value="at.ydd.learning.CrossSum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CrossSum3" />
         <item itemvalue="Application.CrossSum2" />
         <item itemvalue="Application.CrossSum1" />
         <item itemvalue="Application.cäser" />
         <item itemvalue="Application.array3" />
-        <item itemvalue="Application.array2" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664268264622</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="CrossSum2">
+      <created>1664268299198</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1664268299198</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -242,6 +239,7 @@
     <MESSAGE value="Test" />
     <MESSAGE value="cäser" />
     <MESSAGE value="CrossSum1" />
-    <option name="LAST_COMMIT_MESSAGE" value="CrossSum1" />
+    <MESSAGE value="CrossSum2" />
+    <option name="LAST_COMMIT_MESSAGE" value="CrossSum2" />
   </component>
 </project>
