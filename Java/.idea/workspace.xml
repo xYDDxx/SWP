@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7cf50b1-e7be-4731-869b-b2a95b50d902" name="Changes" comment="CrossSum2">
-      <change afterPath="$PROJECT_DIR$/src/at/ydd/learning/CrossSum/CrossSum3.java" afterDir="false" />
+    <list default="true" id="a7cf50b1-e7be-4731-869b-b2a95b50d902" name="Changes" comment="CrossSum3">
+      <change afterPath="$PROJECT_DIR$/src/at/ydd/learning/CrossSum/CrossSum4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +47,7 @@
       <recent name="C:\HTL Dornbirn\2.Klasse\SWP\Programming\Java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CrossSum3">
+  <component name="RunManager" selected="Application.CrossSum4">
     <configuration name="CrossSum1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="at.ydd.learning.CrossSum.CrossSum1" />
       <module name="Programming" />
@@ -87,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="array3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="at.ydd.learning.array.array3" />
+    <configuration name="CrossSum4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="at.ydd.learning.CrossSum.CrossSum4" />
       <module name="Programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="at.ydd.learning.array.*" />
+          <option name="PATTERN" value="at.ydd.learning.CrossSum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CrossSum4" />
         <item itemvalue="Application.CrossSum3" />
-        <item itemvalue="Application.CrossSum2" />
         <item itemvalue="Application.CrossSum1" />
+        <item itemvalue="Application.CrossSum2" />
         <item itemvalue="Application.cäser" />
-        <item itemvalue="Application.array3" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664268299198</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="CrossSum3">
+      <created>1664541168915</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1664541168915</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -240,6 +247,22 @@
     <MESSAGE value="cäser" />
     <MESSAGE value="CrossSum1" />
     <MESSAGE value="CrossSum2" />
-    <option name="LAST_COMMIT_MESSAGE" value="CrossSum2" />
+    <MESSAGE value="CrossSum3" />
+    <option name="LAST_COMMIT_MESSAGE" value="CrossSum3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Java$CrossSum4.ic" NAME="CrossSum4 Coverage Results" MODIFIED="1665476050093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>at.ydd.learning.CrossSum.*</FILTER>
+    </SUITE>
   </component>
 </project>
