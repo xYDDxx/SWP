@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7cf50b1-e7be-4731-869b-b2a95b50d902" name="Changes" comment="TicTacToe weiter">
+    <list default="true" id="a7cf50b1-e7be-4731-869b-b2a95b50d902" name="Changes" comment="TicTacToe Fertig! :)))">
+      <change afterPath="$PROJECT_DIR$/src/at/ydd/learning/HangMan.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/loops/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/loops/TicTacToe.java" afterDir="false" />
     </list>
@@ -47,7 +48,7 @@
       <recent name="C:\HTL Dornbirn\2.Klasse\SWP\Programming\Java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TicTacToe">
+  <component name="RunManager" selected="Application.HangMan">
     <configuration name="Calander" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="at.ydd.learning.Calander" />
       <module name="Programming" />
@@ -61,8 +62,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CrossSum3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="at.ydd.learning.CrossSum.CrossSum3" />
+    <configuration name="CrossSum4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="at.ydd.learning.CrossSum.CrossSum4" />
       <module name="Programming" />
       <extension name="coverage">
         <pattern>
@@ -74,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CrossSum4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="at.ydd.learning.CrossSum.CrossSum4" />
+    <configuration name="HangMan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="at.ydd.learning.HangMan" />
       <module name="Programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="at.ydd.learning.CrossSum.*" />
+          <option name="PATTERN" value="at.ydd.learning.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HangMan" />
         <item itemvalue="Application.TicTacToe" />
         <item itemvalue="Application.cäser" />
         <item itemvalue="Application.Calander" />
         <item itemvalue="Application.CrossSum4" />
-        <item itemvalue="Application.CrossSum3" />
       </list>
     </recent_temporary>
   </component>
@@ -251,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667902194958</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="TicTacToe Fertig! :)))">
+      <created>1668779064814</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1668779064814</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -280,7 +288,8 @@
     <MESSAGE value="Calander fast fertig" />
     <MESSAGE value="TicTacToe anfang" />
     <MESSAGE value="TicTacToe weiter" />
-    <option name="LAST_COMMIT_MESSAGE" value="TicTacToe weiter" />
+    <MESSAGE value="TicTacToe Fertig! :)))" />
+    <option name="LAST_COMMIT_MESSAGE" value="TicTacToe Fertig! :)))" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
