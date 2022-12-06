@@ -1,4 +1,4 @@
-package at.ydd.learning.loops;
+package at.ydd.learning.basics.loops;
 
 import java.util.Scanner;
 

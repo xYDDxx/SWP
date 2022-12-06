@@ -1,4 +1,4 @@
-package at.ydd.learning.CrossSum;
+package at.ydd.learning.basics.CrossSum;
 
 import java.util.Scanner;
 

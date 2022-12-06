@@ -1,10 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7cf50b1-e7be-4731-869b-b2a95b50d902" name="Changes" comment="TicTacToe Fertig! :)))">
-      <change afterPath="$PROJECT_DIR$/src/at/ydd/learning/HangMan.java" afterDir="false" />
+    <list default="true" id="a7cf50b1-e7be-4731-869b-b2a95b50d902" name="Changes" comment="HangMan start">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/loops/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/loops/TicTacToe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/Bankautomat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/Bankautomat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/Calander.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/Calander.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/CrossSum/CrossSum1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/CrossSum/CrossSum1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/CrossSum/CrossSum2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/CrossSum/CrossSum2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/CrossSum/CrossSum3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/CrossSum/CrossSum3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/CrossSum/CrossSum4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/CrossSum/CrossSum4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/DiceGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/DiceGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/HangMan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/HangMan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/array/array1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/array/array1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/array/array2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/array/array2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/array/array3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/array/array3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/cäser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/cäser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/ifs/if1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/ifs/if1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/ifs/if2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/ifs/if2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/loops/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/loops/TicTacToe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/loops/loop1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/loops/loop1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/loops/loop2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/loops/loop2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/switch1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/switch1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/while1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/while1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,11 +67,11 @@
   </component>
   <component name="RunManager" selected="Application.HangMan">
     <configuration name="Calander" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="at.ydd.learning.Calander" />
+      <option name="MAIN_CLASS_NAME" value="at.ydd.learning.basics.Calander" />
       <module name="Programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="at.ydd.learning.*" />
+          <option name="PATTERN" value="at.ydd.learning.basics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,11 +80,11 @@
       </method>
     </configuration>
     <configuration name="CrossSum4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="at.ydd.learning.CrossSum.CrossSum4" />
+      <option name="MAIN_CLASS_NAME" value="at.ydd.learning.basics.CrossSum.CrossSum4" />
       <module name="Programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="at.ydd.learning.CrossSum.*" />
+          <option name="PATTERN" value="at.ydd.learning.basics.CrossSum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,11 +93,11 @@
       </method>
     </configuration>
     <configuration name="HangMan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="at.ydd.learning.HangMan" />
+      <option name="MAIN_CLASS_NAME" value="at.ydd.learning.basics.HangMan" />
       <module name="Programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="at.ydd.learning.*" />
+          <option name="PATTERN" value="at.ydd.learning.basics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,11 +106,11 @@
       </method>
     </configuration>
     <configuration name="TicTacToe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="at.ydd.learning.loops.TicTacToe" />
+      <option name="MAIN_CLASS_NAME" value="at.ydd.learning.basics.loops.TicTacToe" />
       <module name="Programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="at.ydd.learning.loops.*" />
+          <option name="PATTERN" value="at.ydd.learning.basics.loops.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,11 +119,11 @@
       </method>
     </configuration>
     <configuration name="cäser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="at.ydd.learning.cäser" />
+      <option name="MAIN_CLASS_NAME" value="at.ydd.learning.basics.cäser" />
       <module name="Programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="at.ydd.learning.*" />
+          <option name="PATTERN" value="at.ydd.learning.basics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -259,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668779064814</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="HangMan start">
+      <created>1669112668891</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1669112668891</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -289,7 +313,8 @@
     <MESSAGE value="TicTacToe anfang" />
     <MESSAGE value="TicTacToe weiter" />
     <MESSAGE value="TicTacToe Fertig! :)))" />
-    <option name="LAST_COMMIT_MESSAGE" value="TicTacToe Fertig! :)))" />
+    <MESSAGE value="HangMan start" />
+    <option name="LAST_COMMIT_MESSAGE" value="HangMan start" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

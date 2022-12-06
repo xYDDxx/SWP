@@ -1,4 +1,4 @@
-package at.ydd.learning.loops;
+package at.ydd.learning.basics.loops;
 
 public class loop2 {
     public static void main(String[] args) {

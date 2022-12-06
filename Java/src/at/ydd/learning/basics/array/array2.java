@@ -1,4 +1,4 @@
-package at.ydd.learning.array;
+package at.ydd.learning.basics.array;
 
 import java.util.Random;
 

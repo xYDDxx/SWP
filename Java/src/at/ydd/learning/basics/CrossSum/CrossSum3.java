@@ -1,4 +1,4 @@
-package at.ydd.learning.CrossSum;
+package at.ydd.learning.basics.CrossSum;
 
 public class CrossSum3 {
 

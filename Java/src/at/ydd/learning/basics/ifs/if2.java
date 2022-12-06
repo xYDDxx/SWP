@@ -1,4 +1,4 @@
-package at.ydd.learning.ifs;
+package at.ydd.learning.basics.ifs;
 
 import java.util.Random;
 

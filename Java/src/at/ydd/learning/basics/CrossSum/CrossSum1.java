@@ -1,4 +1,4 @@
-package at.ydd.learning.CrossSum;
+package at.ydd.learning.basics.CrossSum;
 
 public class CrossSum1 {
     public static void main(String[] args) {

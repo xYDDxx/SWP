@@ -1,4 +1,4 @@
-package at.ydd.learning;
+package at.ydd.learning.basics;
 
 public class cäser {
     public static void main(String[] args) {
