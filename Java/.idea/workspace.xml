@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7cf50b1-e7be-4731-869b-b2a95b50d902" name="Changes" comment="Objektorientierung start">
-      <change afterPath="$PROJECT_DIR$/src/at/ydd/learning/objectOrientation/car/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/at/ydd/learning/objectOrientation/car/Main.java" afterDir="false" />
+    <list default="true" id="a7cf50b1-e7be-4731-869b-b2a95b50d902" name="Changes" comment="Car: 1. Objekt + 1. Methode">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/objectOrientation/car/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/objectOrientation/car/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/objectOrientation/car/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/objectOrientation/car/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -273,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670317355284</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Car: 1. Objekt + 1. Methode">
+      <created>1670322546909</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1670322546909</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -305,7 +312,8 @@
     <MESSAGE value="TicTacToe Fertig! :)))" />
     <MESSAGE value="HangMan start" />
     <MESSAGE value="Objektorientierung start" />
-    <option name="LAST_COMMIT_MESSAGE" value="Objektorientierung start" />
+    <MESSAGE value="Car: 1. Objekt + 1. Methode" />
+    <option name="LAST_COMMIT_MESSAGE" value="Car: 1. Objekt + 1. Methode" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
