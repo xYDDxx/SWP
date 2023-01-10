@@ -2,12 +2,19 @@ package at.ydd.learning.objectOrientation.car;
 
 public class Car {
     public int fuelComsumption;
-    public int amountOfRepetitions;
     public int tankVolume;
     public int fuelAmount;
     public String brand;
     public String serialNumber;
     private String color;
+
+    public Car(int fuelComsumption, int tankVolume, int fuelAmount, String brand, String serialNumber){
+        this.fuelComsumption = fuelComsumption;
+        this.tankVolume = tankVolume;
+        this.fuelAmount = fuelAmount;
+        this.brand = brand;
+        this.serialNumber = serialNumber;
+    }
 
     public void drive(){
         this.fuelAmount = this.fuelAmount - fuelComsumption;
