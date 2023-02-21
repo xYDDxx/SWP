@@ -12,6 +12,7 @@ public class Engine {
         this.type = type;
     }
 
+
     public void drive(int amount) {
         System.out.println("the motor is running with " + amount);
     }

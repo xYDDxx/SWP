@@ -1,17 +1,31 @@
 package at.ydd.learning.objectOrientation.car;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Car {
     private Engine engine;
+    private Tank tank;
     private int fuelComsumption;
-    private int tankVolume;
-    private int fuelAmount;
     private String brand;
     private String serialNumber;
     private String color;
+    private int speed;
+    private List<RearMirror> mirrors;
 
+
+    public Car(Engine engine, Tank tank, int fuelComsumption, String brand, String serialNumber, String color) {
+        this.engine = engine;
+        this.tank = tank;
+        this.fuelComsumption = fuelComsumption;
+        this.brand = brand;
+        this.serialNumber = serialNumber;
+        this.color = color;
+        this.mirrors = new ArrayList<>();
+    }
 
     public void drive() {
-        this.fuelAmount = this.fuelAmount - fuelComsumption;
+        tank.fuelAmount = tank.fuelAmount - fuelComsumption;
         System.out.println("I am driving");
     }
 
@@ -20,11 +34,15 @@ public class Car {
     }
 
     public void turboBoost() {
-        if (this.fuelAmount > this.tankVolume * 0.1) {
+        if (tank.fuelAmount > tank.tankVolume * 0.1) {
             System.out.println("SuperBoostMode!");
         } else {
             System.out.println("Not enough fuel to go SuperBoostMode");
         }
+    }
+
+    public void addMirror(RearMirror rearMirror) {
+        this.mirrors.add(rearMirror);
     }
 
     public void honk(int amountOfRepetitions) {
@@ -34,59 +52,76 @@ public class Car {
     }
 
     public void getRemainingRange() {
-        int remainingRange = fuelAmount / fuelComsumption;
+        int remainingRange = tank.fuelAmount / fuelComsumption;
         System.out.println("Your remaining range is " + remainingRange + "km");
     }
 
-    public void setBrand(String brand) {
-        this.brand = brand;
+    public Engine getEngine() {
+        return engine;
     }
 
-    public void setColor(String color) {
-        this.color = color;
+    public void setEngine(Engine engine) {
+        this.engine = engine;
     }
 
-    public void setFuelAmount(int fuelAmount) {
-        this.fuelAmount = fuelAmount;
+    public List<RearMirror> getMirrors() {
+        return mirrors;
     }
 
-    public void setFuelComsumption(int fuelComsumption) {
-        this.fuelComsumption = fuelComsumption;
+    public void setMirrors(List<RearMirror> mirrors) {
+        this.mirrors = mirrors;
     }
 
-    public void setSerialNumber(String serialNumber) {
-        this.serialNumber = serialNumber;
+    public Tank getTank() {
+        return tank;
     }
 
-    public void setTankVolume(int tankVolume) {
-        this.tankVolume = tankVolume;
-    }
-
-    public String getSerialNumber() {
-        return serialNumber;
-    }
-
-
-    public int getFuelAmount() {
-        return fuelAmount;
+    public void setTank(Tank tank) {
+        this.tank = tank;
     }
 
     public int getFuelComsumption() {
         return fuelComsumption;
     }
 
-    public int getTankVolume() {
-        return tankVolume;
+    public void setFuelComsumption(int fuelComsumption) {
+        this.fuelComsumption = fuelComsumption;
     }
 
     public String getBrand() {
         return brand;
     }
 
+    public void setBrand(String brand) {
+        this.brand = brand;
+    }
+
+    public String getSerialNumber() {
+        return serialNumber;
+    }
+
+    public void setSerialNumber(String serialNumber) {
+        this.serialNumber = serialNumber;
+    }
+
     public String getColor() {
         return color;
     }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public int getSpeed() {
+        return speed;
+    }
+
+    public void setSpeed(int speed) {
+        this.speed = speed;
+    }
 }
+
+
 
 
 
