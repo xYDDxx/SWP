@@ -12,6 +12,7 @@ public class Car {
     private String color;
     private int speed;
     private List<RearMirror> mirrors;
+    private List<Tire> tires;
 
 
     public Car(Engine engine, Tank tank, int fuelComsumption, String brand, String serialNumber, String color) {
@@ -22,6 +23,7 @@ public class Car {
         this.serialNumber = serialNumber;
         this.color = color;
         this.mirrors = new ArrayList<>();
+        this.tires = new ArrayList<>();
     }
 
     public void drive() {
@@ -43,6 +45,12 @@ public class Car {
 
     public void addMirror(RearMirror rearMirror) {
         this.mirrors.add(rearMirror);
+    }
+
+    public void addTire(Tire tire){this.tires.add(tire);}
+
+    public List<Tire> getTires() {
+        return tires;
     }
 
     public void honk(int amountOfRepetitions) {

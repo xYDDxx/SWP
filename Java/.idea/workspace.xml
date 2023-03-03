@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7cf50b1-e7be-4731-869b-b2a95b50d902" name="Changes" comment="Auto erweitert - RearMirrors">
-      <change afterPath="$PROJECT_DIR$/src/at/ydd/learning/objectOrientation/car/Tire.java" afterDir="false" />
+    <list default="true" id="a7cf50b1-e7be-4731-869b-b2a95b50d902" name="Changes" comment="Auto erweitert - Tires">
+      <change afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/remote/Battery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/remote/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/remote/Remote.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/objectOrientation/car/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/objectOrientation/car/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/objectOrientation/car/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/objectOrientation/car/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,9 +51,9 @@
       <recent name="C:\HTL Dornbirn\2.Klasse\SWP\Programming\Java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Calander" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="at.ydd.learning.basics.Calander" />
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="HangMan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="at.ydd.learning.basics.HangMan" />
       <module name="Programming" />
       <extension name="coverage">
         <pattern>
@@ -61,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HangMan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="at.ydd.learning.basics.HangMan" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="at.ydd.learning.basics.objectOrientation.remote.Main" />
       <module name="Programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="at.ydd.learning.basics.*" />
+          <option name="PATTERN" value="at.ydd.learning.basics.objectOrientation.remote.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.HangMan" />
         <item itemvalue="Application.TicTacToe" />
         <item itemvalue="Application.cäser" />
-        <item itemvalue="Application.Calander" />
       </list>
     </recent_temporary>
   </component>
@@ -307,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676975283608</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Auto erweitert - Tires">
+      <created>1677580121645</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1677580121645</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -342,7 +353,8 @@
     <MESSAGE value="Car: 1. Objekt + 1. Methode" />
     <MESSAGE value="Auto erweitert" />
     <MESSAGE value="Auto erweitert - RearMirrors" />
-    <option name="LAST_COMMIT_MESSAGE" value="Auto erweitert - RearMirrors" />
+    <MESSAGE value="Auto erweitert - Tires" />
+    <option name="LAST_COMMIT_MESSAGE" value="Auto erweitert - Tires" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
