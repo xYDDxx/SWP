@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7cf50b1-e7be-4731-869b-b2a95b50d902" name="Changes" comment="Auto erweitert - Tires">
-      <change afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/remote/Battery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/remote/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/remote/Remote.java" afterDir="false" />
+    <list default="true" id="a7cf50b1-e7be-4731-869b-b2a95b50d902" name="Changes" comment="Fernbedienung Anfang">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/objectOrientation/car/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/objectOrientation/car/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/objectOrientation/car/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/objectOrientation/car/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/remote/Battery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/remote/Battery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/remote/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/remote/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/remote/Remote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/remote/Remote.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -318,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677580121645</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Fernbedienung Anfang">
+      <created>1677851424880</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1677851424880</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -354,7 +359,8 @@
     <MESSAGE value="Auto erweitert" />
     <MESSAGE value="Auto erweitert - RearMirrors" />
     <MESSAGE value="Auto erweitert - Tires" />
-    <option name="LAST_COMMIT_MESSAGE" value="Auto erweitert - Tires" />
+    <MESSAGE value="Fernbedienung Anfang" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fernbedienung Anfang" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

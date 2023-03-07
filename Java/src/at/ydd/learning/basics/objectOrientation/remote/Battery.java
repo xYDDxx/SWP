@@ -8,7 +8,6 @@ public class Battery {
     }
 
     public int getBatteryState() {
-        int State =
         return batteryState;
     }
 
