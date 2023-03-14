@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7cf50b1-e7be-4731-869b-b2a95b50d902" name="Changes" comment="Fernbedienung Fertig">
-      <change afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/cars/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/cars/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/cars/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/cars/Producer.java" afterDir="false" />
+    <list default="true" id="a7cf50b1-e7be-4731-869b-b2a95b50d902" name="Changes" comment="Autos anfangen/fast fertig">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/cars/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/cars/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/cars/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/cars/Engine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/cars/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/cars/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/cars/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/cars/Producer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +50,7 @@
       <recent name="C:\HTL Dornbirn\2.Klasse\SWP\Programming\Java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="HangMan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="at.ydd.learning.basics.HangMan" />
       <module name="Programming" />
@@ -70,6 +70,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="at.ydd.learning.basics.objectOrientation.remote.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="at.ydd.learning.basics.objectOrientation.cars.Main" />
+      <module name="Programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.ydd.learning.basics.objectOrientation.cars.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,26 +116,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="cäser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="at.ydd.learning.basics.cäser" />
-      <module name="Programming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="at.ydd.learning.basics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.HangMan" />
         <item itemvalue="Application.TicTacToe" />
-        <item itemvalue="Application.cäser" />
       </list>
     </recent_temporary>
   </component>
@@ -331,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678184246024</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Autos anfangen/fast fertig">
+      <created>1678455949025</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1678455949025</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -369,7 +376,8 @@
     <MESSAGE value="Auto erweitert - Tires" />
     <MESSAGE value="Fernbedienung Anfang" />
     <MESSAGE value="Fernbedienung Fertig" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fernbedienung Fertig" />
+    <MESSAGE value="Autos anfangen/fast fertig" />
+    <option name="LAST_COMMIT_MESSAGE" value="Autos anfangen/fast fertig" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

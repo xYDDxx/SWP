@@ -1,15 +1,15 @@
 package at.ydd.learning.basics.objectOrientation.cars;
 
 public class Producer {
-        private String name;
-        private String origincountry;
-        private double discount;
+    private String name;
+    private String origincountry;
+    private double discount;
 
-        public Producer(String name, String origincountry, double discount) {
-            this.name = name;
-            this.origincountry = origincountry;
-            this.discount = discount;
-        }
+    public Producer(String name, String origincountry, double discount) {
+        this.name = name;
+        this.origincountry = origincountry;
+        this.discount = discount;
+    }
 
     public String getName() {
         return name;

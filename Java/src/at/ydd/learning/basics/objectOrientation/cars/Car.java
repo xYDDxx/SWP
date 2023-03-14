@@ -1,21 +1,24 @@
 package at.ydd.learning.basics.objectOrientation.cars;
 
 public class Car {
-        private String Color;
-        private int maxspeed;
-        private double baseprice;
-        private int baseconsumption;
-        private Engine engine;
-        private Producer producer;
+    private String Color;
+    private int maxspeed;
+    private double baseprice;
+    private double baseconsumption;
+    private Engine engine;
+    private Producer producer;
+    private int mileage;
+    private double consumption;
 
-        public Car(String color, int maxspeed, double baseprice, int baseconsumption, Engine engine, Producer producer) {
-            Color = color;
-            this.maxspeed = maxspeed;
-            this.baseprice = baseprice;
-            this.baseconsumption = baseconsumption;
-            this.engine = engine;
-            this.producer = producer;
-        }
+    public Car(String color, int maxspeed, double baseprice, double baseconsumption, Engine engine, Producer producer, int mileage) {
+        Color = color;
+        this.maxspeed = maxspeed;
+        this.baseprice = baseprice;
+        this.baseconsumption = baseconsumption;
+        this.engine = engine;
+        this.producer = producer;
+        this.mileage = mileage;
+    }
 
     public String getColor() {
         return Color;
@@ -41,7 +44,7 @@ public class Car {
         this.baseprice = baseprice;
     }
 
-    public int getBaseconsumption() {
+    public double getBaseconsumption() {
         return baseconsumption;
     }
 
@@ -49,7 +52,18 @@ public class Car {
         this.baseconsumption = baseconsumption;
     }
 
-    public void price(){
-            double price = this.baseprice - baseprice * this.producer.getDiscount();
+    public void price() {
+        double price = this.baseprice - baseprice * this.producer.getDiscount();
+        System.out.println(price + "€");
+    }
+
+    public void consumption() {
+        if (this.mileage <= 50000) {
+            consumption = this.baseconsumption;
+        } else if (this.mileage > 50000) {
+            consumption = this.baseconsumption + this.baseconsumption * 0.098;
+        }
+        System.out.println("Dein Verbrauch bei " + this.mileage + "km beträgt: " + consumption + " l/km");
+
     }
 }

@@ -1,7 +1,9 @@
 package at.ydd.learning.basics.objectOrientation.cars;
 
 public class Engine {
-    public enum TYPE {Diesel, Gas};
+    public enum TYPE {Diesel, Gas}
+
+    ;
     private int horsepower;
     private TYPE type;
 
