@@ -49,6 +49,9 @@ public class LampElement {
     public void turnOn(){
         if (this.state==State.On){
             System.out.println("Mein Name ist " + name + ". Ich bin bereits eingeschaltet");
+        }else{
+            this.state=State.On;
+            System.out.println("Mein Name ist " + name + ". Ich bin jetzt eingeschalten");
         }
     }
 

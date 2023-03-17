@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7cf50b1-e7be-4731-869b-b2a95b50d902" name="Changes" comment="Autos Fertig">
-      <change afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/lamp/LampElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/lamp/main.java" afterDir="false" />
+    <list default="true" id="a7cf50b1-e7be-4731-869b-b2a95b50d902" name="Changes" comment="Lampe anfang">
+      <change afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/lamp/Lamp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/lamp/LampElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/lamp/LampElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/lamp/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/lamp/main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +49,7 @@
       <recent name="C:\HTL Dornbirn\2.Klasse\SWP\Programming\Java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.main">
     <configuration name="HangMan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="at.ydd.learning.basics.HangMan" />
       <module name="Programming" />
@@ -101,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TicTacToe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="at.ydd.learning.basics.loops.TicTacToe" />
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="at.ydd.learning.basics.objectOrientation.lamp.main" />
       <module name="Programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="at.ydd.learning.basics.loops.*" />
+          <option name="PATTERN" value="at.ydd.learning.basics.objectOrientation.lamp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.main" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.HangMan" />
-        <item itemvalue="Application.TicTacToe" />
       </list>
     </recent_temporary>
   </component>
@@ -343,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678786959098</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Lampe anfang">
+      <created>1678789826913</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1678789826914</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -358,7 +366,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="While" />
     <MESSAGE value="Bankautomat Anfang" />
     <MESSAGE value="Bankautomat Fertig" />
     <MESSAGE value="Bankautomat mit Error Message" />
@@ -383,7 +390,8 @@
     <MESSAGE value="Fernbedienung Fertig" />
     <MESSAGE value="Autos anfangen/fast fertig" />
     <MESSAGE value="Autos Fertig" />
-    <option name="LAST_COMMIT_MESSAGE" value="Autos Fertig" />
+    <MESSAGE value="Lampe anfang" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lampe anfang" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
