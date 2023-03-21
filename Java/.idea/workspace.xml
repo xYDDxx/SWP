@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7cf50b1-e7be-4731-869b-b2a95b50d902" name="Changes" comment="Lampe anfang">
-      <change afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/lamp/Lamp.java" afterDir="false" />
+    <list default="true" id="a7cf50b1-e7be-4731-869b-b2a95b50d902" name="Changes" comment="Lampe Fertig">
+      <change afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/calculator/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/calculator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/calculator/RootCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/calculator/ScienceCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/lamp/LampElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/lamp/LampElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/lamp/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/lamp/main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,20 +50,7 @@
       <recent name="C:\HTL Dornbirn\2.Klasse\SWP\Programming\Java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.main">
-    <configuration name="HangMan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="at.ydd.learning.basics.HangMan" />
-      <module name="Programming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="at.ydd.learning.basics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="at.ydd.learning.basics.objectOrientation.remote.Main" />
       <module name="Programming" />
@@ -82,6 +70,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="at.ydd.learning.basics.objectOrientation.cars.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="at.ydd.learning.basics.objectOrientation.calculator.Main" />
+      <module name="Programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.ydd.learning.basics.objectOrientation.calculator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.main" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.HangMan" />
       </list>
     </recent_temporary>
   </component>
@@ -351,7 +352,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678789826914</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Lampe Fertig">
+      <created>1679060583707</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1679060583707</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -366,7 +374,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Bankautomat Anfang" />
     <MESSAGE value="Bankautomat Fertig" />
     <MESSAGE value="Bankautomat mit Error Message" />
     <MESSAGE value="DiceGame finished" />
@@ -391,7 +398,8 @@
     <MESSAGE value="Autos anfangen/fast fertig" />
     <MESSAGE value="Autos Fertig" />
     <MESSAGE value="Lampe anfang" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lampe anfang" />
+    <MESSAGE value="Lampe Fertig" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lampe Fertig" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
