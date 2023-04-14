@@ -8,8 +8,11 @@ public class BaseAccount {
     }
 
     public int getBalance() {
-        System.out.println("Balance: " + balance);
         return balance;
+    }
+
+    public void returnBalance(){
+        System.out.println("Balance: " + balance + "€");
     }
 
     public void setBalance(int balance) {
@@ -17,7 +20,7 @@ public class BaseAccount {
     }
 
     public void deposit (int depositAmount){
-        this.balance += depositAmount;
+        setBalance(getBalance()+depositAmount);
         System.out.println("Deposited " + depositAmount + "€");
     }
 

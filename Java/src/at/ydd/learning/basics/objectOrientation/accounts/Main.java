@@ -6,7 +6,12 @@ public class Main {
         CheckingAccount ch1 = new CheckingAccount(100,-1000);
         CreditAccount c1 = new CreditAccount(0,-10000);
 
-        s1.getBalance();
-        s1.withdraw(900);
+
+        s1.deposit(1000);
+        s1.withdraw(10000);
+        s1.returnBalance();
+
+
+
     }
 }
