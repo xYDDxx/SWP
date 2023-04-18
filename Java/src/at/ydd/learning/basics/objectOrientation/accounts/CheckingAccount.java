@@ -15,5 +15,7 @@ public class CheckingAccount extends BaseAccount {
         } else {
             System.out.println("Limit exceeded, try a different amount");
         }
+        System.out.println();
     }
+    
 }

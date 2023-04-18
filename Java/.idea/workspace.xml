@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7cf50b1-e7be-4731-869b-b2a95b50d902" name="Changes" comment="Accounts Angefangen">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="a7cf50b1-e7be-4731-869b-b2a95b50d902" name="Changes" comment="Accounts Fertig">
+      <change afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/geometricFigures/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/geometricFigures/Dice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/geometricFigures/Figure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/geometricFigures/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/geometricFigures/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/geometricFigures/Square.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/accounts/BaseAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/accounts/BaseAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/accounts/CheckingAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/accounts/CheckingAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/accounts/CreditAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/accounts/CreditAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/accounts/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/accounts/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/accounts/SavingAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/accounts/SavingAccount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +47,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../3. Klasse/CCDE/3.03/IntelliJ" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
   </component>
   <component name="RecentsManager">
@@ -376,7 +380,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679665149765</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Accounts Fertig">
+      <created>1681476223066</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1681476223066</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -395,7 +406,6 @@
       <path value="$PROJECT_DIR$/Javascript/Games" />
       <path value="$PROJECT_DIR$/Javascript/Javascript/Projects/Rock, Paper, Scissors" />
     </ignored-roots>
-    <MESSAGE value="DiceGame finished" />
     <MESSAGE value="Test" />
     <MESSAGE value="cäser" />
     <MESSAGE value="CrossSum1" />
@@ -420,7 +430,8 @@
     <MESSAGE value="Lampe Fertig" />
     <MESSAGE value="Calculator fertig" />
     <MESSAGE value="Accounts Angefangen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Accounts Angefangen" />
+    <MESSAGE value="Accounts Fertig" />
+    <option name="LAST_COMMIT_MESSAGE" value="Accounts Fertig" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
