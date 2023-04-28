@@ -35,7 +35,7 @@ public class PhoneFile {
         this.name = name;
     }
 
-    public void getInfo(){
+    public void getInfo() {
         System.out.println("Name: " + name);
         System.out.println("Size: " + size);
         System.out.println("Extension: " + extension);

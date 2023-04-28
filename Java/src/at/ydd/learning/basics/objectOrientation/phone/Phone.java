@@ -7,7 +7,9 @@ public class Phone {
     private SDCard sdcard;
     private String username;
     private int password;
+
     public enum State {Locked, Unlocked}
+
     public State state;
 
     public Phone(String color, Camera camera, SIM sim, SDCard sdcard, String username, int password, State state) {
@@ -76,33 +78,49 @@ public class Phone {
         this.state = state;
     }
 
-    public void takePicture(String Filename){
-        if (state==State.Unlocked){
+    public void takePicture(String Filename) {
+        if (state == State.Unlocked) {
             System.out.println("Taking Picture...");
             this.camera.makePicture(Filename);
-        }else {
+        } else {
             System.out.println("ERROR! UNLOCK YOUR PHONE FIRST!");
         }
 
     }
 
-    public void makeCall(String phoneNumber){
-        if (state==State.Unlocked){
+    public void makeCall(String phoneNumber) {
+        if (state == State.Unlocked) {
             this.sim.doCall(phoneNumber);
-        }else {
+        } else {
             System.out.println("ERROR! UNLOCK YOUR PHONE FIRST!");
         }
 
     }
 
-    public void unlockPhone(String username, int password){
-       if (this.username==username && this.password==password){
-           setState(State.Unlocked);
-           System.out.println("PHONE UNLOCKED!");
+    public void unlockPhone(String username, int password) {
+        if (this.username == username && this.password == password) {
+            setState(State.Unlocked);
+            System.out.println("PHONE UNLOCKED!");
 
-       }else {
-           System.out.println("ERROR! WRONG USERNAME OR PASSWORD");
-       }
+        } else {
+            System.out.println("ERROR! WRONG USERNAME OR PASSWORD");
+        }
+    }
+
+    public void getFreeSpace(int freeSpace) {
+        if (state == State.Unlocked) {
+            this.sdcard.getFreeCapacity(freeSpace);
+        } else {
+            System.out.println("ERROR! UNLOCK YOUR PHONE FIRST!");
+        }
+    }
+
+    public void printAllFiles() {
+        if (state == State.Unlocked) {
+            this.sdcard.getAllFiles();
+        } else {
+            System.out.println("ERROR! UNLOCK YOUR PHONE FIRST!");
+        }
     }
 
 }

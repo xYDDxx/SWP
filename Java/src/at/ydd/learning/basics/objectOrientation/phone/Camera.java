@@ -1,8 +1,10 @@
 package at.ydd.learning.basics.objectOrientation.phone;
+
 import java.util.ArrayList;
 
 public class Camera {
-    public enum Resolution {HD,FullHD,UHD}
+    public enum Resolution {HD, FullHD, UHD}
+
     public Resolution resolution;
     private SDCard sdcard;
 
@@ -29,22 +31,22 @@ public class Camera {
         this.sdcard = sdcard;
     }
 
-    public void makePicture(String Filename){
+    public void makePicture(String Filename) {
         int size = 0;
-        if (this.resolution==Resolution.HD){
+        if (this.resolution == Resolution.HD) {
             size = 10;
-        }else if(this.resolution==Resolution.FullHD){
+        } else if (this.resolution == Resolution.FullHD) {
             size = 50;
-        }else if(this.resolution==Resolution.UHD){
+        } else if (this.resolution == Resolution.UHD) {
             size = 100;
         }
         System.out.println("Making Picture ... Checking Capacity");
-        if (size<=this.sdcard.getCapacity()){
+        if (size <= this.sdcard.getCapacity()) {
             String FileName = Filename;
-            PhoneFile PF1 = new PhoneFile("jpg",10,FileName);
-            this.sdcard.setCapacity(this.sdcard.getCapacity()-size);
+            PhoneFile PF1 = new PhoneFile("jpg", 10, FileName);
+            this.sdcard.setCapacity(this.sdcard.getCapacity() - size);
             this.sdcard.saveFile(PF1);
-        }else {
+        } else {
             System.out.println("Not enough capacity available on your SDCard");
             System.out.println("Try to get free space");
         }

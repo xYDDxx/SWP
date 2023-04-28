@@ -25,12 +25,12 @@ public class SIM {
         this.number = number;
     }
 
-    public void sim(){
+    public void sim() {
         System.out.println("ID: " + id);
         System.out.println("Number: " + number);
     }
 
-    public void doCall(String phoneNumber){
+    public void doCall(String phoneNumber) {
         System.out.println("Calling " + phoneNumber + " ...");
     }
 }
