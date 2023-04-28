@@ -38,6 +38,6 @@ public class PhoneFile {
     public void getInfo(){
         System.out.println("Name: " + name);
         System.out.println("Size: " + size);
-        System.out.println("Extension " + extension);
+        System.out.println("Extension: " + extension);
     }
 }

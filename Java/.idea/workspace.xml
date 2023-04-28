@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7cf50b1-e7be-4731-869b-b2a95b50d902" name="Changes" comment="Geometric Figures finished">
-      <change afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/phone/Camera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/phone/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/phone/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/phone/PhoneFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/phone/SDCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/phone/SIM.java" afterDir="false" />
+    <list default="true" id="a7cf50b1-e7be-4731-869b-b2a95b50d902" name="Changes" comment="Phone Anfang">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/phone/Camera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/phone/Camera.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/phone/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/phone/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/phone/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/phone/Phone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/phone/PhoneFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/phone/PhoneFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/phone/SDCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/phone/SDCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/phone/SIM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/phone/SIM.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +57,19 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="at.ydd.learning.basics.objectOrientation.phone.Main" />
+      <module name="Programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.ydd.learning.basics.objectOrientation.phone.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="at.ydd.learning.basics.objectOrientation.calculator.Main" />
       <module name="Programming" />
@@ -400,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682076944946</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Phone Anfang">
+      <created>1682414415141</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1682414415141</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -419,7 +439,6 @@
       <path value="$PROJECT_DIR$/Javascript/Games" />
       <path value="$PROJECT_DIR$/Javascript/Javascript/Projects/Rock, Paper, Scissors" />
     </ignored-roots>
-    <MESSAGE value="CrossSum1" />
     <MESSAGE value="CrossSum2" />
     <MESSAGE value="CrossSum3" />
     <MESSAGE value="CrossSum4" />
@@ -444,7 +463,8 @@
     <MESSAGE value="Accounts Fertig" />
     <MESSAGE value="Geometrische Figuren Anfang" />
     <MESSAGE value="Geometric Figures finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="Geometric Figures finished" />
+    <MESSAGE value="Phone Anfang" />
+    <option name="LAST_COMMIT_MESSAGE" value="Phone Anfang" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

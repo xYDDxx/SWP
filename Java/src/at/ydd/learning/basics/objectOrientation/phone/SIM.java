@@ -29,4 +29,8 @@ public class SIM {
         System.out.println("ID: " + id);
         System.out.println("Number: " + number);
     }
+
+    public void doCall(String phoneNumber){
+        System.out.println("Calling " + phoneNumber + " ...");
+    }
 }
