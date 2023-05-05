@@ -1,4 +1,5 @@
 package at.ydd.learning.basics.objectOrientation.camera;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -8,9 +9,11 @@ public class Camera {
     private Manufacturer manufacturer;
     private List<Lens> lenses;
     private List<SDCard> sdCards;
+
     public enum Resolution {Small, Medium, Large}
+
     public Resolution resolution;
-    private int SDCardCounter;
+    private int SDCardCounter = -1;
 
     public Camera(int weight, String color, Manufacturer manufacturer, Resolution resolution) {
         this.weight = weight;
@@ -21,8 +24,7 @@ public class Camera {
         this.sdCards = new ArrayList<>();
     }
 
-    public void takePicture(String name, String date){
-        System.out.println("Taking Picture...");
+    public void takePicture(String name, String date) {
         int size = 0;
         if (this.resolution == Resolution.Small) {
             size = 2;
@@ -32,19 +34,17 @@ public class Camera {
             size = 6;
         }
 
-            if (this.sdCards.get(this.SDCardCounter).getCapacity()<6){
-                System.out.println("WARNING: Almost no storage left on SD-Card" + SDCardCounter);
-            }
-            if (size <= this.sdCards.get(SDCardCounter).getCapacity()) {
-                Picture P = new Picture(name, date, size);
-                this.sdCards.get(SDCardCounter).setCapacity(this.sdCards.get(SDCardCounter).getCapacity() - size);
-                this.sdCards.get(SDCardCounter).savePic(P);
-            } else {
-                System.out.println("Not enough capacity available on SD-Card" + SDCardCounter + ", add another SD-Card!");
-            }
+        if (this.sdCards.get(SDCardCounter).getCapacity() < 6) {
+            System.out.println("WARNING: Almost no storage left on SD-Card" + SDCardCounter);
         }
-
-
+        if (size <= this.sdCards.get(SDCardCounter).getCapacity()) {
+            Picture P = new Picture(name, date, size);
+            this.sdCards.get(SDCardCounter).setCapacity(this.sdCards.get(SDCardCounter).getCapacity() - size);
+            this.sdCards.get(SDCardCounter).savePic(P);
+        } else {
+            System.out.println("ERROR: Not enough capacity available on SD-Card" + SDCardCounter + ", add another SD-Card!");
+        }
+    }
 
 
     public void addLens(Lens lens) {
@@ -54,6 +54,7 @@ public class Camera {
     public void addSDCard(SDCard sdCard) {
         this.sdCards.add(sdCard);
         this.SDCardCounter += 1;
+        System.out.println("SDCard" + SDCardCounter + " added!");
     }
 
     public int getWeight() {

@@ -11,11 +11,12 @@ public class Lamp {
     public Lamp() {
         this.lamps = new ArrayList<>();
     }
+
     public void addLampElement(LampElement lamp) {
         this.lamps.add(lamp);
     }
 
-    public void turnAllOn(){
+    public void turnAllOn() {
         for (int i = 0; i < lamps.size(); i++) {
             this.lamps.get(i).setState(LampElement.State.On);
             System.out.println("Glühelement" + (i + 1) + " wurde eingeschalten");
@@ -23,7 +24,7 @@ public class Lamp {
         System.out.println("Alle Glühelemente wurden eingeschalten");
     }
 
-    public double getOverallPowerUsage(){
+    public double getOverallPowerUsage() {
         for (int i = 0; i < lamps.size(); i++) {
             powerUsage += this.lamps.get(i).getConsumption();
         }
@@ -31,7 +32,7 @@ public class Lamp {
         return powerUsage;
     }
 
-    public void printNamesOfLightElements(){
+    public void printNamesOfLightElements() {
         for (int i = 0; i < lamps.size(); i++) {
             System.out.println(lamps.get(i).getName());
         }

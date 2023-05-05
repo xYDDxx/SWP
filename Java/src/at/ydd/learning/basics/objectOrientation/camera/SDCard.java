@@ -1,7 +1,7 @@
 package at.ydd.learning.basics.objectOrientation.camera;
 
-import at.ydd.learning.basics.objectOrientation.phone.PhoneFile;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class SDCard {
@@ -10,6 +10,7 @@ public class SDCard {
 
     public SDCard(int capacity) {
         this.capacity = capacity;
+        this.pictures = new ArrayList<>();
     }
 
     public int getCapacity() {
@@ -21,11 +22,12 @@ public class SDCard {
     }
 
     public void savePic(Picture picture) {
+        System.out.println("Saving Picture...");
         this.pictures.add(picture);
         System.out.println("Picture Saved!");
     }
 
-    public void checkCapacity(){
+    public void checkCapacity() {
         System.out.println(this.getCapacity() + "MB Capacity left!");
     }
 }

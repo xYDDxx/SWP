@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7cf50b1-e7be-4731-869b-b2a95b50d902" name="Changes" comment="Phone Fertig - Fehler behoben">
-      <change afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/camera/Camera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/camera/Lens.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/camera/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/camera/Manufacturer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/camera/Picture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/camera/SDCard.java" afterDir="false" />
+    <list default="true" id="a7cf50b1-e7be-4731-869b-b2a95b50d902" name="Changes" comment="Kamera Angefangen &amp; Fast Fertig">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/camera/Camera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/camera/Camera.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/camera/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/camera/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/camera/SDCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/camera/SDCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/lamp/Lamp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/lamp/Lamp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/lamp/LampElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/ydd/learning/basics/objectOrientation/lamp/LampElement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -434,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682686752550</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Kamera Angefangen &amp; Fast Fertig">
+      <created>1683019853713</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1683019853713</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -453,7 +459,6 @@
       <path value="$PROJECT_DIR$/Javascript/Games" />
       <path value="$PROJECT_DIR$/Javascript/Javascript/Projects/Rock, Paper, Scissors" />
     </ignored-roots>
-    <MESSAGE value="CrossSum4" />
     <MESSAGE value="Calander fast fertig" />
     <MESSAGE value="TicTacToe anfang" />
     <MESSAGE value="TicTacToe weiter" />
@@ -478,7 +483,8 @@
     <MESSAGE value="Phone Anfang" />
     <MESSAGE value="Phone Fertig" />
     <MESSAGE value="Phone Fertig - Fehler behoben" />
-    <option name="LAST_COMMIT_MESSAGE" value="Phone Fertig - Fehler behoben" />
+    <MESSAGE value="Kamera Angefangen &amp; Fast Fertig" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kamera Angefangen &amp; Fast Fertig" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

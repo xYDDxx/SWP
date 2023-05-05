@@ -4,7 +4,9 @@ public class LampElement {
     private String name;
     private String color;
     private int consumption;
+
     public enum State {On, Off}
+
     public State state;
 
     public LampElement(String name, String color, int consumption, State state) {
@@ -46,11 +48,11 @@ public class LampElement {
         this.state = state;
     }
 
-    public void turnOn(){
-        if (this.state==State.On){
+    public void turnOn() {
+        if (this.state == State.On) {
             System.out.println("Mein Name ist " + name + ". Ich bin bereits eingeschaltet");
-        }else{
-            this.state=State.On;
+        } else {
+            this.state = State.On;
             System.out.println("Mein Name ist " + name + ". Ich bin jetzt eingeschalten");
         }
     }
